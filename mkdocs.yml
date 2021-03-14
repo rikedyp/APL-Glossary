@@ -1,0 +1,19 @@
+site_name: APL Glossary
+site_description: Dyalog APL Terminology
+docs_dir: docs/
+site_url: https://dyalog.com
+theme:
+  name: material
+  favicon: 'img/favicon-32.png'
+  logo: 'img/dyalog-white.svg'
+markdown_extensions:
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - abbr
+extra_css:
+  - style/main.css
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
